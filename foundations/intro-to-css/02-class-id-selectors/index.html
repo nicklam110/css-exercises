@@ -8,10 +8,42 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p>Number 1 - I'm a class!</p>
-    <div>Number 2 - I'm one ID.</div>
-    <p>Number 3 - I'm a class, but cooler!</p>
-    <div>Number 4 - I'm another ID.</div>
-    <p>Number 5 - I'm a class!</p>
+    <p class="Number1">Number 1 - I'm a class!</p>
+    <div class="Number2">Number 2 - I'm one ID.</div>
+    <p class="Number3">Number 3 - I'm a class, but cooler!</p>
+    <div class="Number4">Number 4 - I'm another ID.</div>
+    <p class="Number5">Number 5 - I'm a class!</p>
   </body>
 </html>
+
+ 
+
+<!--
+THIS IS MY ORIGIAL SOLUTION ABOVE. Upon checking the solution provided,
+I realized that instead of making each individual element their own class ID,
+I could have grouped all odd number elements into one class ID labeled 'odd',
+and then gave number 2 and 4 their own ID's since the requirements did not state
+to group those two togehter.
+-->
+
+<!--
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class and ID Selectors</title>
+    <link rel="stylesheet" href="solution.css">
+  </head>
+  <body>
+    <p class="odd">Number 1 - I'm a class!</p>
+    <div id="two">Number 2 - I'm one ID.</div>
+    <p class="odd adjust-font-size">Number 3 - I'm a class, but cooler!</p>
+    <div id="four" class="adjust-font-size">Number 4 - I'm another ID.</div>
+    <p class="odd">Number 5 - I'm a class!</p>
+  </body>
+</html>
+
+-->

@@ -1,1 +1,59 @@
 /* Add CSS Styling */
+
+.Number1,
+.Number3,
+.Number5 {
+    background-color: lightpink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.Number2 {
+    color:blue;
+    font-size: 36px;
+}
+
+.Number3 {
+    font-size: 36px;
+}
+
+.Number4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* THIS IS MY ORIGIAL SOLUTION ABOVE. Upon checking the solution provided,
+I realized that instead of making each individual element their own class ID,
+I could have grouped all odd number elements into one class ID labeled 'odd',
+and then gave number 2 and 4 their own ID's since the requirements did not state
+to group those two togehter.  */
+
+
+
+
+
+
+/*
+
+.odd {
+  background-color: rgb(255, 167, 167);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.adjust-font-size {
+  font-size: 24px;
+}
+
+#two {
+  color: #0000ff;
+  font-size: 36px;
+}
+
+
+#four {
+  background-color: hsl(120, 100%, 75%);
+  font-weight: bold;
+}
+
+*/
